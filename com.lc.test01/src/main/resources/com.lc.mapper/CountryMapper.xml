@@ -6,4 +6,8 @@
     <select id="selectAllCountries" resultType="Country">
         select * from hr.countries
     </select>
+
+    <select id="selectCountries" resultType="Country">
+        select * from hr.countries where country_name=#{param1}
+    </select>
 </mapper>

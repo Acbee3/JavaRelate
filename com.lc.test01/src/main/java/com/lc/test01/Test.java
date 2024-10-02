@@ -26,7 +26,9 @@ public class Test {
         List ctryList = ctryMapper.selectAllCountries();
         for(int i = 0; i < ctryList.size(); i++) {
             Country ctry = (Country) ctryList.get(i);
-            System.out.println("country: " + ctry.getRegion_id() + "-" + ctry.getCountry_name() + "-" + ctry.getCountry_id());
+//            System.out.println("country: " + ctry.getRegion_id() + "-" + ctry.getCountry_name() + "-" + ctry.getCountry_id());
         }
+        Country ctryS = ctryMapper.selectCountries("Australia");
+        System.out.println("select: " + ctryS.getCountry_name());
     }
 }
