@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76326f0b-f1ab-4c5a-9a37-ce5041aefbe1" name="更改" comment="mybatis mapper 配置">
-      <change afterPath="$PROJECT_DIR$/com.lc.test01/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-logs/all.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-logs/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-logs/error-json.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-logs/error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-logs/info.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-logs/warn.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="76326f0b-f1ab-4c5a-9a37-ce5041aefbe1" name="更改" comment="log4j 配置">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.lc.test01/src/main/java/com/lc/mapper/CountryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.lc.test01/src/main/java/com/lc/mapper/CountryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.lc.test01/src/main/resources/com.lc.mapper/CountryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/com.lc.test01/src/main/resources/com.lc.mapper/CountryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.lc.test01/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/com.lc.test01/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.lc.test01/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/com.lc.test01/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.lc.test01/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/com.lc.test01/src/main/resources/log4j2.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Acbee3"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:Acbee3/JavaRelate.git",
+    "accountId": "f4e87c80-4113-4a7d-8182-bbb5ef691648"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
 }]]></component>
@@ -145,7 +146,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727847178458</updated>
       <workItem from="1727847180034" duration="11796000" />
-      <workItem from="1727887903133" duration="1107000" />
+      <workItem from="1727887903133" duration="1280000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -163,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727863165833</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="log4j 配置">
+      <option name="closed" value="true" />
+      <created>1727889087576</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727889087576</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +193,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
     <MESSAGE value="mybatis mapper 配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="mybatis mapper 配置" />
+    <MESSAGE value="log4j 配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="log4j 配置" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
