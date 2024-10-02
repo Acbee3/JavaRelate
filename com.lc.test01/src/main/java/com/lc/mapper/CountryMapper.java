@@ -9,5 +9,7 @@ public interface CountryMapper {
 
     Country selectCountries(String name);
 
+    Country selectDetailCountries(Country country);
+
 
 }

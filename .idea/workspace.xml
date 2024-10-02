@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76326f0b-f1ab-4c5a-9a37-ce5041aefbe1" name="更改" comment="mybatis mapper 配置">
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.lc.test01/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-logs/all.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-logs/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-logs/error-json.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-logs/error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-logs/info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-logs/warn.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.lc.test01/src/main/java/com/lc/mapper/CountryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.lc.test01/src/main/java/com/lc/mapper/CountryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.lc.test01/src/main/java/com/lc/test01/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.lc.test01/src/main/java/com/lc/test01/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.lc.test01/src/main/resources/com.lc.mapper/CountryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/com.lc.test01/src/main/resources/com.lc.mapper/CountryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.lc.test01/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/com.lc.test01/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.lc.test01/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/com.lc.test01/src/main/resources/log4j.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +26,7 @@
   </component>
   <component name="DatabaseLocalColorSettings">
     <colors>
+      <entry key="942ee55e-859e-4b74-95b3-1dae4b2cddee" value="Green" />
       <entry key="dcf3ab97-911b-440f-989e-045886276c0b" value="Green" />
     </colors>
   </component>
@@ -31,6 +40,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
   <component name="ProjectId" id="2mrumNxYQmzUHwWwUc1NE6o3DfO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,8 +59,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/liuchao/IdeaProjects/Test/com.lc.test01/src/main/resources/mapper",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/JAVA_Workspace/JavaRelate",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,7 +72,8 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.com.lc.test01.Test.executor": "Run"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -113,6 +128,14 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -122,6 +145,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727847178458</updated>
       <workItem from="1727847180034" duration="11796000" />
+      <workItem from="1727887903133" duration="1107000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
