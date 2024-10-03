@@ -36,6 +36,21 @@ public class Test {
 //            System.out.println("country: " + ctry.getRegion_id() + "-" + ctry.getCountry_name() + "-" + ctry.getCountry_id());
         }
         Country ctryS = ctryMapper.selectCountries("Australia");
-        System.out.println("select: " + ctryS.getCountry_name());
+//        System.out.println("select: " + ctryS.getCountry_name());
+        // 新增
+//        Country newCtry = new Country("UG", "Uganda", "4");
+//        int res = ctryMapper.insertCountry(newCtry);
+//        if(res > 0) {
+//            System.out.println("数据添加成功！");
+//        }
+        // 修改
+        Country newCtry = new Country("UG", "Uganda", "4");
+        int res = ctryMapper.updateCountryInfo("UG", newCtry);
+        if(res > 0) {
+            System.out.println("数据修改成功！");
+        }
+        sqlSession.commit();
+        sqlSession.close();
     }
+
 }

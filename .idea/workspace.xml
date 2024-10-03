@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76326f0b-f1ab-4c5a-9a37-ce5041aefbe1" name="更改" comment="mybatis mapper 配置">
+    <list default="true" id="76326f0b-f1ab-4c5a-9a37-ce5041aefbe1" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/service-logs/2024-10/all-2024-10-03-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-logs/2024-10/debug-2024-10-03-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.lc.test01/src/main/java/com/lc/mapper/CountryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.lc.test01/src/main/java/com/lc/mapper/CountryMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.lc.test01/src/main/java/com/lc/test01/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.lc.test01/src/main/java/com/lc/test01/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.lc.test01/src/main/resources/com.lc.mapper/CountryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/com.lc.test01/src/main/resources/com.lc.mapper/CountryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.lc.test01/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/com.lc.test01/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-logs/all.log" beforeDir="false" afterPath="$PROJECT_DIR$/service-logs/all.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/service-logs/debug.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +35,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2mrumNxYQmzUHwWwUc1NE6o3DfO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -149,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727864525711</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="mybatis mapper 配置">
+      <option name="closed" value="true" />
+      <created>1727970381682</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727970381683</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

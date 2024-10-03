@@ -14,4 +14,14 @@
     <select id="selectDetailCountries" resultType="Country">
         select * from hr.countries where country_name=#{country_name}
     </select>
+
+    <insert id="insertCountry">
+        insert into hr.countries (country_id, country_name, region_id) values (#{country_id}, #{country_name}, #{region_id})
+    </insert>
+
+    <update id="updateCountryInfo">
+        update HR.countries
+        set country_name = #{param2.country_name}, country_id = #{param2.country_id}, region_id = #{param2.region_id}
+        where country_id = #{param1};
+    </update>
 </mapper>

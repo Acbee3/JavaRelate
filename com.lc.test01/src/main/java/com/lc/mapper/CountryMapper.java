@@ -11,5 +11,8 @@ public interface CountryMapper {
 
     Country selectDetailCountries(Country country);
 
+    int insertCountry(Country country);
+
+    int updateCountryInfo(String country_id, Country country);
 
 }
