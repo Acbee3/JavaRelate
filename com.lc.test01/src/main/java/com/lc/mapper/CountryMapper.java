@@ -15,4 +15,6 @@ public interface CountryMapper {
 
     int updateCountryInfo(String country_id, Country country);
 
+    int deleteCountry(String country_id);
+
 }

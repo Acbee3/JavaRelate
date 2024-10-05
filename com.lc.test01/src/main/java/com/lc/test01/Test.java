@@ -33,7 +33,7 @@ public class Test {
         List ctryList = ctryMapper.selectAllCountries();
         for(int i = 0; i < ctryList.size(); i++) {
             Country ctry = (Country) ctryList.get(i);
-//            System.out.println("country: " + ctry.getRegion_id() + "-" + ctry.getCountry_name() + "-" + ctry.getCountry_id());
+            System.out.println("country: " + ctry.getRegion_id() + "-" + ctry.getCountry_name() + "-" + ctry.getCountry_id());
         }
         Country ctryS = ctryMapper.selectCountries("Australia");
 //        System.out.println("select: " + ctryS.getCountry_name());
@@ -44,10 +44,15 @@ public class Test {
 //            System.out.println("数据添加成功！");
 //        }
         // 修改
-        Country newCtry = new Country("UG", "Uganda", "4");
-        int res = ctryMapper.updateCountryInfo("UG", newCtry);
+//        Country newCtry = new Country("UG", "Uganda", "4");
+//        int res = ctryMapper.updateCountryInfo("UG", newCtry);
+//        if(res > 0) {
+//            System.out.println("数据修改成功！");
+//        }
+        // 删除
+        int res = ctryMapper.deleteCountry("HK");
         if(res > 0) {
-            System.out.println("数据修改成功！");
+            System.out.println("数据删除成功！");
         }
         sqlSession.commit();
         sqlSession.close();

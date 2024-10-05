@@ -24,4 +24,8 @@
         set country_name = #{param2.country_name}, country_id = #{param2.country_id}, region_id = #{param2.region_id}
         where country_id = #{param1};
     </update>
+
+    <delete id="deleteCountry">
+        delete from HR.countries where country_id = #{param1}
+    </delete>
 </mapper>
