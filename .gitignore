@@ -36,3 +36,5 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+com.lc.test01/src/main/resources/db.properties
