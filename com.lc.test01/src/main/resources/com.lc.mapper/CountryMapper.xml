@@ -26,6 +26,6 @@
     </update>
 
     <delete id="deleteCountry">
-        delete from HR.countries where country_id = #{param1}
+        delete from HR.countries where country_id = #{arg0}
     </delete>
 </mapper>
